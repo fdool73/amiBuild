@@ -69,14 +69,14 @@
         "Parameters": {
           "commands": [
             "sudo mkdir /opt/qualys && chmod 1777 /opt/qualys",
-      			"sudo aws s3 cp s3://bucketname/Linux/amazon2.sh .",
+      	    "sudo aws s3 cp s3://bucketname/Linux/amazon2.sh .",
             "sudo aws s3 cp s3://bucketname/qualys-cloud-agent.x86_64.rpm /opt/qualys/",
             "sudo aws s3 cp s3://bucketname/install_qualys.sh /opt/qualys/",
             "sudo chmod +x /opt/qualys/install_qualys.sh",
-      			"sudo chmod +x amazon2.sh",
-      			"sudo bash ./amazon2.sh",
-      			"sudo rm ./amazon2.sh",
-      			"sudo rm -rf /home/ec2-user/.ssh/authorized_keys"
+	    "sudo chmod +x amazon2.sh",
+	    "sudo bash ./amazon2.sh",
+	    "sudo rm ./amazon2.sh",
+	    "sudo rm -rf /home/ec2-user/.ssh/authorized_keys"
           ]
         }
       }
