@@ -72,7 +72,7 @@
             "sudo yum install unzip -y",
             "sudo unzip awscli-bundle.zip",
             "sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws",
-            "sudo /usr/local/bin/aws s3 cp s3://rets-ami-build/Linux/centos6.sh .",
+            "sudo /usr/local/bin/aws s3 cp s3://buckletname/Linux/centos6.sh .",
             "sudo mkdir /opt/qualys && sudo chmod 1777 /opt/qualys",
             "sudo /usr/local/bin/aws s3 cp s3://bucketname/qualys-cloud-agent.x86_64.rpm /opt/qualys/",
             "sudo /usr/local/bin/aws s3 cp s3://bucketname/install_qualys.sh /opt/qualys/",
