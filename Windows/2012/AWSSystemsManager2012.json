@@ -133,7 +133,7 @@
 				"Parameters": {
 					"commands": [
 						"Copy-S3Object -BucketName bucketname -KeyPrefix Windows/2012/New_GPO/ -Folder C:\\Windows\\Temp",
-            "Copy-S3Object -BucketName bucketname -Key Windows/2012/Win8.1AndW2K12R2-KB3191564-x64.msu  -File C:\\Windows\\Temp\\Win8.1AndW2K12R2-KB3191564-x64.msu",
+            					"Copy-S3Object -BucketName bucketname -Key Windows/2012/Win8.1AndW2K12R2-KB3191564-x64.msu  -File C:\\Windows\\Temp\\Win8.1AndW2K12R2-KB3191564-x64.msu",
 						"mkdir C:\\qualys",
 						"Copy-S3Object -BucketName bucketname -Key QualysCloudAgent-2.0.6.1.exe -File C:\\qualys\\QualysCloudAgent-2.0.6.1.exe",
 						"Copy-Item 'C:\\Windows\\Temp\\Machine' -Destination 'C:\\Windows\\System32\\GroupPolicy' -Recurse -force",
@@ -142,8 +142,8 @@
 						"Auditpol /restore /file:C:\\Windows\\Temp\\Audit.ini",
 						"gpupdate /target:computer /force",
 						"gpupdate /target:user /force",
-            "C:\\Windows\\Temp\\Win8.1AndW2K12R2-KB3191564-x64.msu /quiet /norestart"
-         ]
+            					"C:\\Windows\\Temp\\Win8.1AndW2K12R2-KB3191564-x64.msu /quiet /norestart"
+         					]
 				}
 			}
 		},
