@@ -69,9 +69,9 @@
         "Parameters": {
           "commands": [
             "sudo mkdir /opt/qualys && sudo chmod 1777 /opt/qualys",
-            "sudo aws s3 cp s3://rets-ami-build/Linux/amazon.sh .",
-            "sudo aws s3 cp s3://rets-ami-build/qualys-cloud-agent.x86_64.rpm /opt/qualys/",
-            "sudo aws s3 cp s3://rets-ami-build/install_qualys.sh /opt/qualys/",
+            "sudo aws s3 cp s3://bucketname/Linux/amazon.sh .",
+            "sudo aws s3 cp s3://bucketname/qualys-cloud-agent.x86_64.rpm /opt/qualys/",
+            "sudo aws s3 cp s3://bucketname/install_qualys.sh /opt/qualys/",
             "sudo chmod +x amazon.sh",
             "sudo chmod +x /opt/qualys/install_qualys.sh",
             "sudo bash ./amazon.sh",
