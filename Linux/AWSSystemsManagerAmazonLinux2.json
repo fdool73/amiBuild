@@ -1,6 +1,6 @@
 {
   "schemaVersion": "0.3",
-  "description": "Systems Manager – Patch RETS Amazon Linux AMI",
+  "description": "Systems Manager – Patch Amazon Linux 2 AMI",
   "assumeRole": "arn:aws:iam::ACCOUNT:role/AmazonSSMAutomationRole",
   "parameters": {
     "SourceAmiId": {
