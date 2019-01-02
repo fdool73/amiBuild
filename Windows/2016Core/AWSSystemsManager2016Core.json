@@ -1,6 +1,6 @@
 {
 	"schemaVersion": "0.3",
-	"description": "Updates RETS Microsoft Windows 2012 R2 AMI. By default it will install all Windows updates, Amazon software, and Amazon drivers. It will then sysprep and create a new AMI. Supports Windows Server 2008 R2 and greater",
+	"description": "Updates Microsoft Windows 2012 R2 AMI. By default it will install all Windows updates, Amazon software, and Amazon drivers. It will then sysprep and create a new AMI. Supports Windows Server 2008 R2 and greater",
 	"assumeRole": "arn:aws:iam::ACCOUNT:role/AmazonSSMAutomationRole",
 	"parameters": {
 		"SourceAmiId": {
