@@ -1,6 +1,6 @@
 {
   "schemaVersion": "0.3",
-  "description": "Systems Manager – Patch RETS CentOS 7 AMI",
+  "description": "Systems Manager – Patch CentOS 7 AMI",
   "assumeRole": "arn:aws:iam::ACCOUNT:role/AmazonSSMAutomationRole",
   "parameters": {
     "SourceAmiId": {
